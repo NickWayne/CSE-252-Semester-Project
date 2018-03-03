@@ -1,0 +1,16 @@
+/* Note that this file should remain present
+ * even if using Bootstrap styling so that
+ * the css linter doesn't complain
+ */
+ .navbar{
+     margin-bottom: 0px;
+ }
+.jumbotron{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+    z-index: 1;
+}

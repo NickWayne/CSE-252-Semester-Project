@@ -1,0 +1,13 @@
+$string = "How does this look";
+	echo "<h4>" . $string . "</h4>";
+	$word = preg_replace("/[ ]/","!",$string);
+	echo "<h4>" . $word . "</h4>";
+	foreach(str_split($word) as $value){
+		if($value === "!"){
+			echo "<br>";
+		}else{
+			echo "<p style='display: inline;'>_ </p>";
+		}
+	}
+
+	echo "<h4>" . $word . "</h4>";

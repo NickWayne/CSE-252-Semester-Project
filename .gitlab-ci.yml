@@ -1,0 +1,6 @@
+html5check:
+    script:
+        - java -jar /usr/local/bin/vnu.jar --skip-non-html .
+css3check:
+    script:
+        - csslint --quiet .
